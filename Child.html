@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Child Selector</title>
+        <style> 
+        p:first-child{
+            color:brown;
+        }
+        p:last-child{
+            color:blue;
+        }
+        p:nth-child(2){
+            color:blueviolet;
+        }
+        p:nth-last-child(2){
+            color:green;
+        }
+        p:only-child{
+            color:violet;
+        }
+        </style>
+</head>
+<body> 
+    <div>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+    </div>
+    <div>
+        <p>7</p>
+    </div>
+</body>
+</html>
